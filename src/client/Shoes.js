@@ -23,12 +23,12 @@ class Shoes extends React.Component {
                 <hr/>
                 <p className="subtitle is-size-6">Quantity : {this.props.quantity}</p>
                 {/*delete the prop with requested id from the function invoked in the parent component*/}
-                <button className="button is-danger" type="button" onClick={() => {this.props.handleDelete(this.props.id);}}>
+                <button className="btn btn-danger" type="button" onClick={() => {this.props.handleDelete(this.props.id);}}>
                   Delete
                 </button>
                 {/* load the EditShoes component via React Router and send the id over to the EditShoes component*/}
                 <Link to={`/edit-shoes/${this.props.id}`}>
-                  <button className="button is-primary" type="button">
+                  <button className="btn btn-success" type="button">
                     Edit
                   </button>
                 </Link>

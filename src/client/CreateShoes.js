@@ -48,48 +48,39 @@ class CreateShoes extends Component {
   render() {
     // remember that the name of the input fields should match the state
     return (
-      <div className="is-fluid">
+      <div className="container">
         {/* on form submit call handleSubmit()*/}
         <form onSubmit={this.handleSubmit}>
           <h2 className="title is-1 has-text-primary">Create New Shoes</h2>
           <hr />
           {/* main container for input fields*/}
           <div className="container">
-            {/* FIRST COLUMN*/}
-            <div className="columns">
-              <div className="column is-half">
                 <div className="field">
-                  <label className="label"> Name: </label>
+                  <label className="form-label"> Name: </label>
                   <div className="control">
-                    <input className="input is-small" type="text" name="name" value={this.state.name} onChange={this.handleChange} id="form" />
+                    <input className="form-control" type="text" name="name" value={this.state.name} onChange={this.handleChange} id="form" />
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label"> Quantity: </label>
+                  <label className="form-label"> Quantity: </label>
                   <div className="control">
-                    <input className="input is-small" type="text" name="quantity" value={this.state.quantity} onChange={this.handleChange} id="form" />
+                    <input className="form-control" type="text" name="quantity" value={this.state.quantity} onChange={this.handleChange} id="form" />
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label"> Picture: </label>
+                  <label className="form-label"> Picture: </label>
                   <div className="control">
-                    <input className="input is-small" type="text" name="picture" value={this.state.picture} onChange={this.handleChange} id="form" />
+                    <input className="form-control" type="text" name="picture" value={this.state.picture} onChange={this.handleChange} id="form" />
                   </div>
                 </div>
+                <div className="field">
+                  <label className="form-label"> Price: </label>
+                  <div className="control">
+                    <input className="form-control" type="text" name="price" value={this.state.price} onChange={this.handleChange} id="form" />
+                  </div>
+                </div>
+            <input className="btn btn-primary" type="submit" value="Submit" />
               </div>
-              {/* SECOND COLUMN*/}
-              <div className="column">
-                <div className="field">
-                  <label className="label"> Price: </label>
-                  <div className="control">
-                    <input className="input is-small" type="text" name="price" value={this.state.price} onChange={this.handleChange} id="form" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* SUBMIT BUTTON*/}
-            <input className="button is-primary" type="submit" value="Submit" />
-          </div>
         </form>
       </div>
     );
