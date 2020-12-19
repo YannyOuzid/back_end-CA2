@@ -97,7 +97,7 @@ class ShoesList extends Component {
         {/* FOOTER*/}
         <footer className="footer has-background-primary">
           <div className="content has-text-centered">
-            <p className="has-text-white-bis"><strong>Random User API</strong> styled with Bulma.</p>
+            <p className="has-text-white-bis"><strong>Random User API</strong> styled with Bulma and Bootstrap</p>
           </div>
         </footer>
       </div>
