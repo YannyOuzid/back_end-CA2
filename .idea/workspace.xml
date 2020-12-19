@@ -22,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../b/Indid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test/BEWD_CA2/mern-full-stack" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +45,9 @@
       <workItem from="1608044389375" duration="28000" />
       <workItem from="1608248261011" duration="3569000" />
       <workItem from="1608299145980" duration="33000" />
+      <workItem from="1608333119686" duration="2805000" />
+      <workItem from="1608399094926" duration="1359000" />
+      <workItem from="1608411702803" duration="2912000" />
     </task>
     <servers />
   </component>

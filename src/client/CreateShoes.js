@@ -64,7 +64,7 @@ class CreateShoes extends Component {
                 <div className="field">
                   <label className="form-label"> Quantity: </label>
                   <div className="control">
-                    <input className="form-control" type="text" name="quantity" value={this.state.quantity} onChange={this.handleChange} id="form" />
+                    <input className="form-control" type="number" name="quantity" value={this.state.quantity} onChange={this.handleChange} id="form" />
                   </div>
                 </div>
                 <div className="field">
@@ -76,7 +76,7 @@ class CreateShoes extends Component {
                 <div className="field">
                   <label className="form-label"> Price: </label>
                   <div className="control">
-                    <input className="form-control" type="text" name="price" value={this.state.price} onChange={this.handleChange} id="form" />
+                    <input className="form-control" type="number" name="price" value={this.state.price} onChange={this.handleChange} id="form" />
                   </div>
                 </div>
             <input className="btn btn-primary" type="submit" value="Submit" />
