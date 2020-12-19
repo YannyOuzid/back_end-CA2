@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa7c010-f534-468f-92f1-b9023c5a5c81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/CreateShoes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/CreateShoes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Shoes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Shoes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../b/Indid" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,7 +43,8 @@
       <workItem from="1607594772553" duration="6251000" />
       <workItem from="1608032020319" duration="2364000" />
       <workItem from="1608044389375" duration="28000" />
-      <workItem from="1608248261011" duration="1288000" />
+      <workItem from="1608248261011" duration="3569000" />
+      <workItem from="1608299145980" duration="33000" />
     </task>
     <servers />
   </component>

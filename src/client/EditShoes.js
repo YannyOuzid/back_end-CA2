@@ -12,10 +12,9 @@ class EditShoes extends Component {
     // store the related to the user information into the state
     // these should match the user object from the API
     this.state = {
-      title: '',
-      first: '',
-      lastName: '',
-      quote: '',
+      name: '',
+      quantity: '',
+      price: '',
       picture: ''
     };
 
@@ -33,10 +32,9 @@ class EditShoes extends Component {
         // on resonse set the state values to match empty state values set in the constructor
         this.setState({
           _id: response.data._id,
-          title: response.data.title,
-          first: response.data.first,
-          lastName: response.data.lastName,
-          quote: response.data.quote,
+          name: response.data.name,
+          quantity: response.data.quantity,
+          price: response.data.price,
           picture: response.data.picture,
         });
       })
